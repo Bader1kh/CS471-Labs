@@ -1,0 +1,124 @@
+body {
+    margin: 8px;
+    color: #000;
+    background-color: #fff;
+    font-family: "Times New Roman", serif;
+}
+
+/* Task 1: Links */
+
+.qu-link {
+    display: block;
+    padding: 18px;
+    text-align: center;
+    background-color: var(--background);
+}
+
+#new-tab {
+    --background: #a7efb8;
+    --normal: #d00000;
+    --visited: #8b008b;
+}
+
+#same-tab {
+    --background: #555;
+    --normal: #ffff00;
+    --visited: #ffd166;
+}
+
+#third-link {
+    --background: #000;
+    --normal: #fff;
+    --visited: #d8b4fe;
+}
+
+.qu-link:link {
+    color: var(--normal);
+}
+
+.qu-link:visited {
+    color: var(--visited);
+}
+
+.qu-link:hover {
+    color: #fff;
+    background-color: #2563eb;
+}
+
+.qu-link:active {
+    color: #000;
+    background-color: #ffa500;
+}
+
+/* Task 2: Formatting */
+
+.formatting-page {
+    font-family: Arial, sans-serif;
+}
+
+.formatting-title {
+    padding: 10px;
+    color: green;
+    background-color: #f5f5dc;
+    font-family: "Times New Roman", serif;
+}
+
+/* Task 3: Lists */
+
+.listing-title {
+    padding: 10px;
+    color: white;
+    background-color: cadetblue;
+}
+
+/* Task 4: Tables */
+
+table {
+    margin: 25px auto;
+}
+
+caption {
+    margin-bottom: 8px;
+}
+
+.fruit-table {
+    border: 1px solid black;
+    border-spacing: 2px;
+}
+
+.fruit-table caption {
+    font-weight: bold;
+}
+
+.fruit-table th,
+.fruit-table td {
+    border: 1px solid black;
+    padding: 3px;
+}
+
+.fruit-table tfoot {
+    font-weight: bold;
+}
+
+.camel-table {
+    width: 75%;
+    border-collapse: collapse;
+}
+
+.camel-table th,
+.camel-table td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+.camel-table tbody th {
+    text-align: left;
+}
+
+.desert-image {
+    display: block;
+    width: 200px;
+    height: 160px;
+    object-fit: cover;
+    margin: auto;
+}

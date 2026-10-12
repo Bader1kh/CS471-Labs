@@ -1,0 +1,33 @@
+{% extends "bookmodule/html5/base.html" %}
+
+{% block title %}HTML5 Links{% endblock %}
+
+{% block content %}
+<a
+    id="new-tab"
+    class="qu-link"
+    href="https://www.qu.edu.sa/"
+    target="_blank"
+    rel="noopener noreferrer"
+>
+    Go to QU website (open a new tab)
+</a>
+
+<a
+    id="same-tab"
+    class="qu-link"
+    href="https://www.qu.edu.sa/"
+    target="_self"
+>
+    Go to QU website (open in the same page/tab)
+</a>
+
+<a
+    id="third-link"
+    class="qu-link"
+    href="https://www.qu.edu.sa/"
+    target="_self"
+>
+    Go to QU website (open in the same page/tab)
+</a>
+{% endblock %}
